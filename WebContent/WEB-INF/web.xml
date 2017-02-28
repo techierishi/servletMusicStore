@@ -19,7 +19,7 @@
 	</error-page>
 
 	<listener>
-		<listener-class>com.michalgoly.util.MusicStoreContextListener</listener-class>
+		<listener-class>com.pavitra.util.MusicStoreContextListener</listener-class>
 	</listener>
 
 	<!-- You can restrict access to admin pages by uncommenting the code below -->

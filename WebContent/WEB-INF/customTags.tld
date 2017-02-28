@@ -6,7 +6,7 @@
    
    <tag>
       <name>ifEmptyPutAsterisk</name>
-      <tagclass>com.michalgoly.tags.IfEmptyPutAsteriskTag</tagclass>
+      <tag-class>com.pavitra.tags.IfEmptyPutAsteriskTag</tag-class>
       <attribute>
          <name>field</name>
          <required>true</required>
