@@ -28,7 +28,6 @@
                   <div class="thumbnail">
                      <img src="<c:url value='${product.imageUrl}' />" alt="Cover Image" />
                      <div class="caption">
-                        <h3>${product.artistName}</h3>
                         <p>${product.albumName}</p>
                         <a href="<c:url value='catalog/product/${product.code}' />" class="btn btn-primary btn-block">More</a>
                      </div>
