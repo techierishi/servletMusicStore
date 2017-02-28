@@ -93,8 +93,8 @@
 
 														var t = {
 															playlist : [ {
-																file : "<c:url value='uploads/${product.songMp3}' />",
-																thumb : "<c:url value='uploads/${product.songImg}' />",
+																file : "${pageContext.request.contextPath}/<c:url value='uploads/${product.songMp3}' />",
+																thumb : "${pageContext.request.contextPath}/<c:url value='uploads/${product.songImg}' />",
 																trackName : "${product.albumInformation}",
 																trackArtist : "${product.songArtist}",
 																trackAlbum : "${product.songGenre}",
