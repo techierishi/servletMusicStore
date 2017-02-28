@@ -37,6 +37,8 @@
 <link
 	href="${pageContext.request.contextPath}/siteres/css/owl.theme.css"
 	rel="stylesheet">
+<link href="${pageContext.request.contextPath}/siteres/css/player.css"
+	rel="stylesheet">
 
 <!-- theme stylesheet -->
 <link
@@ -46,6 +48,11 @@
 <!-- your stylesheet with modifications -->
 <link href="${pageContext.request.contextPath}/siteres/css/custom.css"
 	rel="stylesheet">
+
+<script
+	src="${pageContext.request.contextPath}/siteres/js/jquery-1.11.0.min.js"></script>
+<script
+	src="${pageContext.request.contextPath}/siteres/js/jaudio.min.js"></script>
 
 <script
 	src="${pageContext.request.contextPath}/siteres/js/respond.min.js"></script>
@@ -62,9 +69,12 @@
  _________________________________________________________ -->
 	<div id="top">
 		<div class="container">
- <div class="col-md-6 offer" data-animate="fadeInDown">
-                <a href="${pageContext.request.contextPath}" class="btn btn-success btn-sm" data-animate-hover="shake">Online Music Store </a>
-            </div>			<div class="col-md-6" data-animate="fadeInDown">
+			<div class="col-md-6 offer" data-animate="fadeInDown">
+				<a href="${pageContext.request.contextPath}"
+					class="btn btn-success btn-sm" data-animate-hover="shake">Online
+					Music Store </a>
+			</div>
+			<div class="col-md-6" data-animate="fadeInDown">
 				<ul class="menu">
 					<li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
 					</li>
@@ -103,9 +113,9 @@
 
 						<p class="text-center text-muted">Not registered yet?</p>
 						<p class="text-center text-muted">
-							<a href="#"><strong>Register now</strong></a>! It is
-							easy and done in 1&nbsp;minute and gives you access to special
-							discounts and much more!
+							<a href="#"><strong>Register now</strong></a>! It is easy and
+							done in 1&nbsp;minute and gives you access to special discounts
+							and much more!
 						</p>
 
 					</div>
@@ -124,8 +134,10 @@
 		<div class="container">
 			<div class="navbar-header">
 
-				<a class="navbar-brand home" href="${pageContext.request.contextPath}"
-					data-animate-hover="bounce"> <span class="sr-only">Music Store</span>
+				<a class="navbar-brand home"
+					href="${pageContext.request.contextPath}"
+					data-animate-hover="bounce"> <span class="sr-only">Music
+						Store</span>
 				</a>
 				<div class="navbar-buttons">
 					<button type="button" class="navbar-toggle" data-toggle="collapse"
@@ -138,7 +150,7 @@
 						<span class="sr-only">Toggle search</span> <i class="fa fa-search"></i>
 					</button>
 					<a class="btn btn-default navbar-toggle" href="#"> <i
-						class="fa fa-shopping-cart"></i> <span class="hidden-xs">3
+						class="fa fa-shopping-cart"></i> <span class="hidden-xs">
 							items in cart</span>
 					</a>
 				</div>
@@ -161,7 +173,7 @@
 
 				<div class="navbar-collapse collapse right" id="basket-overview">
 					<a href="#" class="btn btn-primary navbar-btn"><i
-						class="fa fa-shopping-cart"></i><span class="hidden-sm">3
+						class="fa fa-shopping-cart"></i><span class="hidden-sm">
 							items in cart</span></a>
 				</div>
 				<!--/.nav-collapse -->

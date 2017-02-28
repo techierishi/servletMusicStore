@@ -49,14 +49,14 @@
 
 <!-- *** SCRIPTS TO INCLUDE ***
  _________________________________________________________ -->
-<script src="${pageContext.request.contextPath}/siteres/js/jquery-1.11.0.min.js"></script>
+
+
 <script src="${pageContext.request.contextPath}/siteres/js/bootstrap.min.js"></script>
 <script src="${pageContext.request.contextPath}/siteres/js/jquery.cookie.js"></script>
 <script src="${pageContext.request.contextPath}/siteres/js/waypoints.min.js"></script>
 <script src="${pageContext.request.contextPath}/siteres/js/modernizr.js"></script>
 <script src="${pageContext.request.contextPath}/siteres/js/bootstrap-hover-dropdown.js"></script>
 <script src="${pageContext.request.contextPath}/siteres/js/owl.carousel.min.js"></script>
-<script src="${pageContext.request.contextPath}/siteres/js/front.js"></script>
 
 
 </body>

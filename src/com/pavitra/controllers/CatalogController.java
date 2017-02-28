@@ -33,12 +33,13 @@ public class CatalogController extends HttpServlet {
       // Retrieve the uri
       String requestURI = request.getRequestURI();
       String url = "/index.jsp";
+      String contextName = getServletContext().getContextPath();
 
       if (requestURI.endsWith("/catalog")) {
          url = displayProducts(request, response);
       } else if (requestURI.endsWith("/listen")) {
          url = listen(request, response);
-      } else if (requestURI.matches("/MusicStore/catalog/product/.*")) {
+      } else if (requestURI.matches(contextName+"/catalog/product/.*")) {
          url = showProduct(request, response);
       }
 
